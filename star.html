@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Canvas</title>
+
+</head>
+
+<body>  
+
+  <p>Draw a star</p>
+
+      <canvas id="Canvas" width="180" height="180" style="border:1px solid wheat;"></canvas>
+       <script>
+          var b = document.getElementById("Canvas");
+          var ctx=b.getContext("2d")
+          ctx.beginPath();
+          ctx.moveTo(40, 70);
+          ctx.lineTo(140, 70);
+          ctx.moveTo(40, 70);
+          ctx.lineTo(90, 130);
+          ctx.moveTo(140, 70);
+          ctx.lineTo(90, 130);
+          ctx.moveTo(140, 110);
+          ctx.lineTo(40, 110);
+          ctx.moveTo(140, 110);
+          ctx.lineTo(90, 50);
+          ctx.moveTo(40, 110);
+          ctx.lineTo(90, 50);
+          ctx.stroke();
+
+      </script>    
+
+    <hr>  
+    <canvas id="newCanvas" width="300" height="250" ></canvas>
+      <script>
+         var canvas = document.getElementById('newCanvas');
+         var ctx = canvas.getContext('2d');
+         ctx.fillStyle = "wheat";
+         ctx.beginPath();
+         ctx.moveTo(108, 0.0);
+         ctx.lineTo(141, 70);
+         ctx.lineTo(218, 78.3);
+         ctx.lineTo(162, 131);
+         ctx.lineTo(175, 205);
+         ctx.lineTo(108, 170);
+         ctx.lineTo(41.2, 205);
+         ctx.lineTo(55, 131);
+         ctx.lineTo(1, 78);
+         ctx.lineTo(75, 68);
+         ctx.lineTo(108, 0);
+         ctx.closePath();
+         ctx.fill();
+      </script>
+
+
+         
+</body>
+
+</html>
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
